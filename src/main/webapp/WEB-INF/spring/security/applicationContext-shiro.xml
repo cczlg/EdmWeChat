@@ -24,6 +24,7 @@
 			<value>
 				/login = authc
 				/logout = logout
+				/msg=anon
 				/resources/** = anon
 				/error/**=anon
 				/api/** = anon

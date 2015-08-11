@@ -2,7 +2,7 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>org.springframework.samples</groupId>
-	<artifactId>MyWebApp</artifactId>
+	<artifactId>MyWeChat</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>war</packaging>
 
@@ -42,7 +42,7 @@
 		<mysql-connector.version>5.1.6</mysql-connector.version>
 		<ehcache-web.version>2.0.4</ehcache-web.version>
 		<hibernate-validator.version>5.1.0.CR1</hibernate-validator.version>
-		<!-- <httpclient.version>4.1.1</httpclient.version>-->
+		<httpclient.version>4.4.1</httpclient.version>
 		<mockito.version>1.9.5</mockito.version>
 		<selenium.version>2.41.0</selenium.version>
 		<jetty.version>8.1.14.v20131031</jetty.version>
@@ -391,12 +391,12 @@
 			<scope>test</scope>
 		</dependency>
 		<!-- test end -->
-		<!-- 
+		 
 		<dependency>
 			<groupId>org.apache.httpcomponents</groupId>
 			<artifactId>httpclient</artifactId>
 			<version>${httpclient.version}</version>
-		</dependency>-->
+		</dependency>
 	</dependencies>
 
 	<build>
